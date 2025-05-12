@@ -58,13 +58,6 @@ This repository contains my work from the **Quantium Virtual Internship**, focus
 
 ---
 
-## 📁 Repository Structure
-
-- `Task 1.pdf`: Customer analytics and feature engineering
-- `Task 2.pdf`: Experiment design and impact evaluation
-
----
-
 ## 📌 Highlights
 
 - Built end-to-end analytics workflows in Python
