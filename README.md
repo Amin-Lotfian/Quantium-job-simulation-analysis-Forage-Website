@@ -1,6 +1,6 @@
 # Quantium Virtual Internship – Retail Strategy and Analytics
 
-This repository contains my work from the **Quantium Virtual Internship**, focused on real-world data analysis in the retail sector. The project is split into two key tasks involving customer behavior analysis and experimentation design to assess a marketing campaign’s effectiveness.
+This repository contains my work from the **Quantium Virtual Internship** on the Forage website, focused on real-world data analysis in the retail sector. The project is split into two key tasks involving customer behavior analysis and experimentation design to assess a marketing campaign’s effectiveness.
 
 ---
 
