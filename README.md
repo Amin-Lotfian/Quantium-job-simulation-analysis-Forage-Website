@@ -4,13 +4,13 @@ This repository contains my work from the **Quantium Virtual Internship**, focus
 
 ---
 
-## 📊 Task 1: Data Preparation and Customer Analytics
+## Task 1: Data Preparation and Customer Behavior Analytics
 
-**Objective**: Clean and analyze chip sales data to understand customer purchasing behavior.
+**Objective**: Clean and analyze chips sales data to understand customer purchasing behavior.
 
 **Key Activities**:
 - Loaded and cleaned transaction and customer data using **Pandas**.
-- Filtered out irrelevant products (non-chip items) and removed anomalies (e.g., bulk purchases).
+- Filtered out irrelevant products (non-chips items) and removed anomalies (e.g., bulk purchases).
 - Engineered features such as:
   - `PACK_SIZE` from product names
   - `BRAND` categorization from text fields
@@ -28,7 +28,7 @@ This repository contains my work from the **Quantium Virtual Internship**, focus
 
 ---
 
-## 🧪 Task 2: Experimentation and Uplift Testing
+## Task 2: Experimentation and Uplift Testing
 
 **Objective**: Evaluate a marketing campaign trial run in three stores using control groups and uplift analysis.
 
@@ -50,7 +50,7 @@ This repository contains my work from the **Quantium Virtual Internship**, focus
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 - **Language**: Python
 - **Libraries**: `pandas`, `matplotlib`, `seaborn`, `scipy`, `numpy`, `datetime`
@@ -58,7 +58,7 @@ This repository contains my work from the **Quantium Virtual Internship**, focus
 
 ---
 
-## 📌 Highlights
+## Highlights
 
 - Built end-to-end analytics workflows in Python
 - Converted business questions into data-driven decisions
