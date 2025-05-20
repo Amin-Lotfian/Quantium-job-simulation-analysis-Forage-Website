@@ -40,13 +40,12 @@ To assess the efficiency of a product replacement campaign, we conducted an anal
 1. Matching trial stores with control stores based on pre-trial similarity (sales and customer count trend behaviors).
 The key challenge was in this step. Initially, I combined sales and customer counts in a similarity function but later separated them, focusing first on sales. In the function itself, I tested a hybrid metric (Pearson correlation + magnitude distance) but realized magnitude could not explain post-trial trends (e.g., a control store with similar sales volume but opposite trends would skew results).
 Final Approach: 
-   - Sales-Based Matching (`best_match1`):
+- Sales-Based Matching (`best_match1`):
 Identified stores with the strongest sales trend similarity (Pearson correlation) and selected the top 10 correlated stores. Narrowed to stores with sales within ±20% of the trial store’s mean, resulting in best_match1.
-   - Customer-Based Matching (`best_match2`):
+- Customer-Based Matching (`best_match2`):
 Repeated the process for customer count trends, creating best_match2.
-   - Combined Metrics Matching (`best_match3`):
-  Averaged scores from best_match1 and best_match2, then sorted the list based on combined scores to create best_match3.
-
+- Combined Metrics Matching (`best_match3`):
+Averaged scores from best_match1 and best_match2, then sorted the list based on combined scores to create best_match3.
 2. Measured post-trial differences in sales (best_match1), customer count (best_match2), and combined metrics (best_match3) by validating significance using t-tests and confidence intervals.
 
 **Results for Store 77:**  
