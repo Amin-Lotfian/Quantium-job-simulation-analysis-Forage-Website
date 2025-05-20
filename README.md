@@ -56,6 +56,6 @@ Repeated the process for customer count trends, creating best_match2.
 Our comprehensive analysis using multiple control stores and metrics reveals mixed evidence for the product replacement campaign’s effectiveness. While comparisons with Store 233 consistently indicate success across both sales and customer metrics, alternative control stores (50, 35, and 162) suggest the observed improvements may be attributable to broader market trends. This inconsistency across benchmarks indicates the campaign likely had a positive but modest effect that is sensitive to control store selection. The campaign shows promise but requires further testing with refined methodology before full-scale implementation can be confidently recommended.
 
 
-### Little notice: for running the whole project, you first have to run orderly, because the **mdata** file will be created at the end of task1, and will be used in the other tasks.
+### Little notice: To run the entire project, the tasks must be executed in order, as the CSV file "mdata" is created at the end of task1 and is used in other tasks.
 
 ---
