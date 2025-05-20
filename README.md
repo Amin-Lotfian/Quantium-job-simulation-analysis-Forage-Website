@@ -50,12 +50,12 @@ Repeated the process for customer count trends, creating best_match2.
 2. Measured post-trial differences in sales (best_match1), customer count (best_match2), and combined metrics (best_match3) by validating significance using t-tests and confidence intervals.
 
 **Results for Store 77:**  
-- In the original project, three trial stores (77, 86, 88) were analyzed using a mixed function considering both total sales and customer counts. However, my deeper analysis focused on Store 77 using three distinct matching functions (sales-based, customer-based, and combined). This methodology is more precise and informative. The final solution requires applying these three functions to the other two trial stores to conclusively determine campaign effectiveness. For Store 77:
+In the original project, three trial stores (77, 86, 88) were analyzed using a mixed function considering both total sales and customer counts. However, my deeper analysis focused on Store 77 using three distinct matching functions (sales-based, customer-based, and combined). This methodology is more precise and informative. The final solution requires applying these three functions to the other two trial stores to conclusively determine campaign effectiveness. For Store 77:
 
 **Final Verdict (Campaign Effectiveness Conclusion):**  
 Our comprehensive analysis using multiple control stores and metrics reveals mixed evidence for the product replacement campaign’s effectiveness. While comparisons with Store 233 consistently indicate success across both sales and customer metrics, alternative control stores (50, 35, and 162) suggest the observed improvements may be attributable to broader market trends. This inconsistency across benchmarks indicates the campaign likely had a positive but modest effect that is sensitive to control store selection. The campaign shows promise but requires further testing with refined methodology before full-scale implementation can be confidently recommended.
 
 
-### Little notice: To run the entire project, the tasks must be executed in order, as the CSV file "mdata" is created at the end of task1 and is used in other tasks.
+**Little notice: To run the entire project, the tasks must be executed in order, as the CSV file "mdata" is created at the end of task1 and is used in other tasks.**
 
 ---
